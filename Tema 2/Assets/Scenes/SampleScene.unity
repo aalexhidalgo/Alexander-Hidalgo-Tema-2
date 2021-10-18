@@ -331,9 +331,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ee47edf3d68540b4797907d36f018c5c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerAge: 17
-  playerName: Alexander
-  game0ver: 0
+  x: 10
+  y: 1
+  a: 5
+  b: 2
+  isRaining: 1
 --- !u!65 &1156522072
 BoxCollider:
   m_ObjectHideFlags: 0

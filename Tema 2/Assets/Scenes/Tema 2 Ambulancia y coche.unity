@@ -428,6 +428,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sound: "\xA1Brum, brum, brum!"
+  name: Coche
+  numberWheels: 4
+  hasSiren: 0
+  isOn: 0
 --- !u!1 &686194068
 GameObject:
   m_ObjectHideFlags: 0
@@ -735,6 +739,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sound: "\xA1Nino, nino!"
+  name: Ambulancia
+  numberWheels: 4
+  hasSiren: 0
+  isOn: 0
 --- !u!1 &944325597
 GameObject:
   m_ObjectHideFlags: 0
