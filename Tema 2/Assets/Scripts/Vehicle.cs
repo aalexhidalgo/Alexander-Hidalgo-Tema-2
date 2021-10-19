@@ -12,10 +12,10 @@ public class Vehicle : MonoBehaviour
     [SerializeField] private int numberWheels = 4;
     // Variable que guarda si tiene sirena
     [SerializeField] private bool hasSiren;
-
+    // Variable que indica si el vehículo está en marcha
     [SerializeField] private bool isOn = true;
-
-
+    // Variable que indica la cantidad de gasolina
+    [SerializeField] private float gasoline;
 
 
     // Start is called before the first frame update
@@ -31,7 +31,7 @@ public class Vehicle : MonoBehaviour
         {
             Debug.Log($" {name} no tiene sirena");
         }
-        */
+        
 
         if (isOn == true)
         {
@@ -45,11 +45,33 @@ public class Vehicle : MonoBehaviour
         {
             Debug.Log($"{name} no está en marcha");
         }
+        */
+
+        if (gasoline < 10 && isOn == true)
+        {
+            Debug.Log($"¡A {name} le queda poca gasolina!");
+
+            if (hasSiren == true)
+            {
+                Debug.Log($"{sound}");
+            }
+            else
+            {
+                Debug.Log($"{name} no tiene sirena");
+            }
+        }
+        else
+        {
+            if (isOn == false)
+            {
+                Debug.Log($"{name} no está en marcha.");
+            }
+        }
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 }
