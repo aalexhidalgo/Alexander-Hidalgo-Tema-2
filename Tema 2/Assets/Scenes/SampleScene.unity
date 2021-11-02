@@ -331,9 +331,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ee47edf3d68540b4797907d36f018c5c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  x: 5
-  y: 1
-  playerAge: 17
+  myPos: {x: 0, y: 0, z: 0}
+  hello: 
+  number1: 5
+  number2: 4
 --- !u!65 &1156522072
 BoxCollider:
   m_ObjectHideFlags: 0
