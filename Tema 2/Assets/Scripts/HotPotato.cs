@@ -17,10 +17,13 @@ public class HotPotato : MonoBehaviour
     void Update()
     {
         GetComponent<MeshRenderer>().material.color = colorMat;
+        
     }
 
     private void OnMouseDown()
     {
+        colorMat = new Color(Random.Range(0f, 1f), Random.Range(0f, 1f), Random.Range(0f, 1f));
+
         transform.localScale += 2 * Vector3.one;
         Counter--; // Al final a Counter le restamos 1
         

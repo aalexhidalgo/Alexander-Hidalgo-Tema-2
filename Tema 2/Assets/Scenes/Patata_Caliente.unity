@@ -248,7 +248,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18d1833072d26d846b6d9061d9000242, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  colorMat: {r: 0.42129326, g: 0, b: 1, a: 0}
+  colorMat: {r: 1, g: 0, b: 0, a: 0}
 --- !u!135 &1315851915
 SphereCollider:
   m_ObjectHideFlags: 0
