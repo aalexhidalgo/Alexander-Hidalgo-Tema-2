@@ -5,6 +5,7 @@ using UnityEngine;
 public class HotPotato : MonoBehaviour
 {
     private int Counter;
+    public Color colorMat;
 
     // Start is called before the first frame update
     void Start()
@@ -15,7 +16,7 @@ public class HotPotato : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        GetComponent<MeshRenderer>().material.color = colorMat;
     }
 
     private void OnMouseDown()
